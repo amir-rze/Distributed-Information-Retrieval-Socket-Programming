@@ -1,0 +1,4 @@
+# Distributed-Information-Retrieval-With-Socket-Programming
+
+## Project Description
+In this exercise, first, a file containing people’s information, including ID, first and last name, and city of residence, which is on the server side, should be randomly distributed among different clients. The server acts as an interface between N clients, communicates with N clients through sockets. Clients will connect to each other through the server and communicate and exchange data. None of the clients have a direct relationship with each other and they will communicate and exchange data with each other through the server. In fact, the server will be an intermediary between the requests of the clients. What is supposed to be done is that each client requests information about a person or persons from the server, and the server collects information from different clients and returns it to the desired client and prints it on the output.
